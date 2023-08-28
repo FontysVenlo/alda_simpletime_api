@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2019 Informatics Fontys FHTenL University of Applied Science Venlo
+ * Copyright (c) 2023 Informatics Fontys FHTenL University of Applied Science Venlo
  */
 package simpletimeapi;
 
