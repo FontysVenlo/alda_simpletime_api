@@ -4,16 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>io.github.fontysvenlo</groupId>
-        <artifactId>simpletimeparent</artifactId>
-        <version>1.0-SNAPSHOT</version>
-        <relativePath>..</relativePath>
+        <groupId>io.github.fontysvenlo</groupId>  
+        <artifactId>informaticspom</artifactId>
+        <version>0.9</version>
     </parent>
     <groupId>io.github.fontysvenlo</groupId>
-    <artifactId>simpletimeapi</artifactId>
+    <artifactId>simpletime_api</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>Simple Time API :: solution</name>
+    <name>ALDA Simple Time API</name>
     <dependencies>
     </dependencies>
     <properties>
