@@ -10,7 +10,7 @@
     </parent>
     <groupId>io.github.fontysvenlo.alda</groupId>
     <artifactId>simpletime_api</artifactId>
-    <version>1.02</version>
+    <version>1.03</version>
     <packaging>jar</packaging>
     <name>ALDA Simple Time API</name>
     <description>ALDA Simple Time API</description>

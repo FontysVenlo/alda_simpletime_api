@@ -14,7 +14,7 @@ public interface Duration extends Comparable<Duration> {
     /**
      * Adds a duration to this duration.
      *
-     * @param duration˙to add.
+     * @param duration˙The duration to add.
      * @return a new Duration object.
      */
     Duration plus( Duration duration );
