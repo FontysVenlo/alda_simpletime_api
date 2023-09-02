@@ -4,7 +4,9 @@
 package simpletimeapi;
 
 /**
- *
+ * Abstract Factory Interface.
+ * Contains all factory methods to be implemented by the student.
+ * 
  * @author Richard van den Ham {@code r.vandenham@fontys.nl}
  * @author Pieter van den Hombergh {@code p.vandenhombergh@fontys.nl}
  */
