@@ -8,7 +8,7 @@
         <artifactId>informaticspom</artifactId>
         <version>0.9</version>
     </parent>
-    <groupId>io.github.fontysvenlo</groupId>
+    <groupId>io.github.fontysvenlo.alda</groupId>
     <artifactId>simpletime_api</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
