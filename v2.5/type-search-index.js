@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"simpletimeapi","l":"AbstractSimpleTimeFactory"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"simpletimeapi","l":"Duration"},{"p":"simpletimeapi","l":"Time"}];updateSearchResults();
