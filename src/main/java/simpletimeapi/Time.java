@@ -115,7 +115,7 @@ public interface Time extends Comparable<Time> {
     /**
      * Equals method.
      * Hint: generate equals method together with hashCode.
-     * @param other
+     * @param other object
      * @return true if the value of this Time is equal to the value of other Time.
      */
     @Override

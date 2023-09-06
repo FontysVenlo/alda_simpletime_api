@@ -55,7 +55,7 @@ public interface Duration extends Comparable<Duration> {
     /**
      * Equals method.
      * Hint: generate equals method together with hashCode.
-     * @param other
+     * @param other object
      * @return true if the value of this Duration is equal to the value of other Duration.
      */
     @Override
