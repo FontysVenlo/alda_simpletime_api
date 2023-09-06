@@ -1,10 +1,13 @@
 /*
- * Copyright (c) 2019 Informatics Fontys FHTenL University of Applied Science Venlo
+ * Copyright (c) 2023 Informatics Fontys FHTenL University of Applied Science Venlo
  */
 package simpletimeapi;
 
 /**
  * Length between two Times.
+ * 
+ * Hint to implementer:
+ * A Duration is allowed to be negative.
  *
  * @author Richard van den Ham {@code r.vandenham@fontys.nl}
  * @author Pieter van den Hombergh {@code p.vandenhombergh@fontys.nl}
@@ -42,4 +45,27 @@ public interface Duration extends Comparable<Duration> {
      */
     int asMinutes();
 
+    /**
+     * Returns textual representation of Duration.
+     * @return Duration in minutes written as e.g "300 minutes".
+     */
+    @Override
+    String toString();
+    
+    /**
+     * Equals method.
+     * Hint: generate equals method together with hashCode.
+     * @param other
+     * @return true if the value of this Duration is equal to the value of other Duration.
+     */
+    @Override
+    boolean equals(Object other);
+    
+    /**
+     * Return hasCode.
+     * Hint: generate hashCode togeteher with equals method. 
+     * @return hashCode of this object.
+     */
+    @Override
+    int hashCode();
 }
