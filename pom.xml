@@ -10,7 +10,7 @@
     </parent>
     <groupId>io.github.fontysvenlo.alda</groupId>
     <artifactId>simpletime_api</artifactId>
-    <version>2.2</version>
+    <version>2.3</version>
     <packaging>jar</packaging>
     <name>ALDA Simple Time API</name>
     <description>ALDA Simple Time API</description>
@@ -27,4 +27,15 @@
             --add-opens simpletimeapi/simpletimeapi=ALL-UNNAMED 
         </surefire.opens>
     </properties>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <configuration>
+                    <detectJavaApiLink>false</detectJavaApiLink>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
