@@ -2,14 +2,8 @@ name: Java CI with Maven
 
 on:
   pull_request:
-    branches: [ master, main ]
-  workflow_dispatch:
+    branches: [ main ]
 
 jobs:
-  test:
-    uses: FontysVenlo/alda-workflows/.github/workflows/maven.yml@main
-    permissions:
-      checks: write
-      contents: read
-      pull-requests: write
-    secrets: inherit
+  build:
+    uses: FontysVenlo/alda_api_workflows/.github/workflows/pullrequest.yml@main
